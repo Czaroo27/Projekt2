@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .sidebar,
+  .menu a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .service {
+    margin-bottom: 10px;
+  }
+}

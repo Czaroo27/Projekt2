@@ -1,0 +1,62 @@
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f4f7f6;
+}
+
+.welcome-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.service {
+  flex-basis: calc(25% - 20px);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service:hover {
+  background-color: #e1e6e9;
+}
+.service_tech {
+  width: 150px;
+}
+.next {
+  background-color: #1e8449;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 100px;
+  margin: 30px auto;
+  transition: background-color 0.3s;
+}
+
+.next:hover {
+  background-color: #27ae60;
+}
